@@ -7,34 +7,96 @@
     <title>HOME</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script src="script.js"></script>
+<style>
+  body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("8Mvj.gif");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: transparent;
+}
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: transparent;
+}
+.maincontent{
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.rightcontent {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+</style>
+
+
    </head>
     <body>
 
+<div class="image">
+  <div class="text" aria-placeholder="search">
+  <h1 style="font-size:50px; background: transparent;">Our bakery</h1>
+    <h3 style=" background: transparent"> HomePage</h3>
 
-      <div class="nav">
-        <a id="b" href="/workspaces/bakery/Home.HTML"> HOME </a>
+  </div>
+</div>
+    <nav>
+        <a href="Home.HTML"> HOME </a>
         
-        <a id="a" href="/workspaces/bakery/food.HTML"> FOOD </a>
+        <a href="food.HTML"> FOOD </a>
         
-        <a id="c" href="/workspaces/bakery/MIssion.HTML"> MISSION </a>
-      </div>
-<section>
-  <img class="Slides" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-photo%2Fpastry-shop-cakes-bakery-desserts-sweet-food_198067-186807.jpg&f=1&nofb=1&ipt=e6cfaa1655d71cd39c9c1b4bd4456122f1930cd0b53717edd7054d28c9c60abf"
-  style="width:100%" "height: 30px">
+        <a href="MIssion.HTML"> ABOUT </a>
+      </nav>
 
-  <img class="Slides" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.mBTPipeeOrxfjjJkgdFE9AHaE8%3Fpid%3DApi&f=1&ipt=587a2ebcddd17cb6f1c61adc7b90663a7eb1633c3351f3d6cedf47156e64352d&ipo=images"
-  style="width:100%" "height: 30px">
-</section>
 
-<!-- Band Description -->
-<section  style="max-width:600px">
-  <h2 class="w3-wide">OUR BAKERY</h2>
-  <p class="w3-opacity"><i>Made with love</i></p>
-  <p class="w3-justify">somethin somthing somthing bLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.la ba lbal bsomthing </p>
-</section>
+<div>
+  <div class="maincontent">
+    <h2>Lorum Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+
+ <div class="rightcontent">
+    <h2>Our most popular pasteries</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+</div>
+
+  
+</div>
+
+
+
 
 
 <!-- Footer -->
@@ -42,23 +104,6 @@
 
 </footer>
 
-<script>
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("Slides");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 3000);
-}
-</script>
 
 
 

@@ -1,11 +1,27 @@
-.nav{
-background-color:black;
-  margin: 10px;
-  padding: 30px;
-  font-size: 24px;
-justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex:1;
+*{
+    font-family: 'Courier New', monospace;
+}
+nav a {
+  justify-content: center;
+	background-color:#c4a44e;
+	color:whitesmoke;
+	flex:2;
+	 padding:20px;
+	text-decoration:none;
+}
+nav{
+  position:sticky;
+
+  padding:5px;
+  display:flex;
+}
+.banner{
+  background-image: linear-gradient(rgba(21, 24, 24, 0),
+   rgba(0, 0, 0, 0.5)),url("8Mvj.gif") ;
+height:70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
 }
