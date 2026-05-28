@@ -1,12 +1,12 @@
 *{
     font-family: 'Courier New', monospace;
-    background-color:#FFFFE3 ;
+ 
 }
 nav a {
   justify-content: center;
 	background-color:#c4a44e;
 	color:whitesmoke;
-	flex:2;
+	flex:1;
 	 padding:20px;
 	text-decoration:none;
 }
