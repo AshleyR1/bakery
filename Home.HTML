@@ -59,7 +59,25 @@
   margin-top: 7px;
   text-align: center;
 }
+img{
+   border-radius: 5px 5px 0 0;
+}
+#bcards {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+   border-radius: 5px;
+}
 
+/* On mouse-over, add a deeper shadow */
+#bcards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
 </style>
 
 
@@ -85,12 +103,22 @@
 <div>
   <div class="maincontent">
     <h2>Welcome to our bakery</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>At our bakery, we believe that great baking brings people together. Founded with a passion for handcrafted breads, delicious pastries, and freshly baked treats, our bakery has become a place where tradition, quality, and community meet. Every item is prepared with carefully selected ingredients, attention to detail, and a commitment to delivering freshness in every bite.</p>
+  <br>
+    <h2> Our Mission:</h2>
+  <p>Our mission is to provide fresh, high-quality baked products that bring joy to every customer while maintaining a commitment to excellent service, creativity, and community connection. We strive to create memorable experiences through delicious flavors, exceptional craftsmanship, and a passion for baking that is reflected in everything we make.</p>
   </div>
 
  <div class="rightcontent">
-    <h2>Our most popular pastries</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+    <h2>Our most beloved pastries</h2>
+    <p> here is some of our customers favoret pastries! we hope that these can be your favorets as well ^^</p>
+    <br>
+    <div id="bcards">
+ <img src="CoffeeMacarons.jpg" alt="macarons" style="width:100%">
+      <div class="container">
+    <h4><b>John Doe</b></h4>
+    <p>Architect & Engineer</p>
+    </div>  
   </div>
 </div>
 
