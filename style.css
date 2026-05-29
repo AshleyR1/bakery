@@ -12,10 +12,16 @@ nav a {
 }
 nav{
   position:sticky;
-
+ top: 0;
+  overflow: hidden;
   padding:5px;
   display:flex;
 }
+#navbar a:hover {
+  background-color: #f8da77;
+  color: black;
+}
+
 .banner{
   background-image: linear-gradient(rgba(21, 24, 24, 0),
    rgba(0, 0, 0, 0.5)),url("8Mvj.gif") ;
