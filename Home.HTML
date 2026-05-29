@@ -50,14 +50,18 @@
   width: 60%;
   padding: 0 20px;
 }
-
+.column{
+  flex-direction: column;
+}
 .rightcontent {
   background-color: #e5e5e5;
   float: left;
-  width: 20%;
-  padding: 15px;
+  width: 35%;
+  padding: 10px;
   margin-top: 7px;
   text-align: center;
+  display: flex;
+  flex:1;
 }
 img{
    border-radius: 5px 5px 0 0;
@@ -103,33 +107,36 @@ img{
 <div>
   <div class="maincontent">
     <h2>Welcome to our bakery</h2>
-    <p>At our bakery, we believe that great baking brings people together. Founded with a passion for handcrafted breads, delicious pastries, and freshly baked treats, our bakery has become a place where tradition, quality, and community meet. Every item is prepared with carefully selected ingredients, attention to detail, and a commitment to delivering freshness in every bite.</p>
+    <p>At our bakery, we believe that great baking brings people together. Founded with a passion for handcrafted breads, delicious pastries, and freshly baked treats, our bakery has become a place where tradition, quality, and community meet.<br><br><br> Every item is prepared with carefully selected ingredients, attention to detail, and a commitment to delivering freshness in every bite.</p>
   <br>
     <h2> Our Mission:</h2>
-  <p>Our mission is to provide fresh, high-quality baked products that bring joy to every customer while maintaining a commitment to excellent service, creativity, and community connection. We strive to create memorable experiences through delicious flavors, exceptional craftsmanship, and a passion for baking that is reflected in everything we make.</p>
+  <p>Our mission is to provide fresh, high-quality baked products that bring joy to every customer while maintaining a commitment to excellent service, creativity, and community connection.<br> <br> <br> We strive to create memorable experiences through delicious flavors, exceptional craftsmanship, and a passion for baking that is reflected in everything we make.</p>
   </div>
 
  <div class="rightcontent">
+  <div class="column">
     <h2>Our most beloved pastries</h2>
     <p> here is some of our customers favoret pastries! we hope that these can be your favorets as well ^^</p>
     <br>
-
+</div>
+    
     <div id="bcards">
- <img src="CoffeeMacarons.jpg" alt="macarons" style="width:90%">
+ <img src="CoffeeMacarons.jpg" alt="macarons" style="width:50%">
       <div class="container">
     <h4><b>Macrons</b></h4>
     <p>Our infamous  coffee macarons</p>
     <br>
- <img src="Nutellacake.jpg" alt="Cake" style="width:90%">
+ <img src="Nutellacake.jpg" alt="Cake" style="width:50%">
       <div class="container">
     <h4><b>Cake</b></h4>
     <p>Our delectable chocolate cake </p>
     <br>
-     <img src="thecookie.jpg" alt="cookie" style="width:90%">
+     <img src="thecookie.jpg" alt="cookie" style="width:50%">
       <div class="container">
     <h4><b>Cookies</b></h4>
     <p>Our gooey crunchy chocolate chip cookies insipired by cookie monster </p>
     <br>
+    
     </div>  
   </div>
 </div>

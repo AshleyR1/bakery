@@ -3,7 +3,7 @@
  
 }
 nav a {
-  justify-content: center;
+  justify-content: space-evenly;;
 	background-color:#c4a44e;
 	color:whitesmoke;
 	flex:1;
